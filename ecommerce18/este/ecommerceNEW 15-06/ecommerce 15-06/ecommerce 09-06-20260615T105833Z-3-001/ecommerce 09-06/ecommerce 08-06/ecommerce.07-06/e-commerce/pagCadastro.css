@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/fundo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.532);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 35px 10px rgba(255, 98, 161, 0.507)
+
+}
+
+.card input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 9px;
+    margin-left: 4.5%;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    width: 90%;
+    height: auto;
+    cursor: pointer
+}
+
+.card h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.card .botao,
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+}
